@@ -12,6 +12,7 @@
   width: 100%;
   height: 80px;
   justify-content: center;
+  z-index: 100000;
 }
 
 .headerInterno {
@@ -112,7 +113,7 @@ li img:hover {
 .imagemPrincipal {
   width: 100%;
   height: 700px;
-  position: relative;
+  position: absolute;
 }
 .img img {
   width: 100%;
@@ -126,11 +127,11 @@ li img:hover {
   object-fit: cover;
 }
 .imagem {
-  background-image: url(imagens/esfera-azul-brilhante-segurada-por-mao-humana-gerada-por-ia.jpg);
   background-size: auto;
   display: flex;
   justify-content: center;
   align-items: end;
+  position: relative;
 }
 .fundo{
   width: 100%;
